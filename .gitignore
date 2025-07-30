@@ -12,3 +12,7 @@ elastic-agent
 go_env.properties
 mage_output_file.go
 .env*
+
+# Go
+bin
+pkg
