@@ -3,7 +3,7 @@ Makes getting set up with [Beats](https://github.com/elastic/beats) contribution
 
 ## Steps
 - Run `make beats-quickstart`. This is the last time you will run this.
-- Done! That's it! Have fun with [Beats](https://github.com/elastic/beats)!
+- Done. That's it. Have fun with [Beats](https://github.com/elastic/beats)!
 
 ## Details on What Happens via Steps
 - Your `beats` repo clone, a directory below this, will now come with the proper Go setup to work, and a `.env` file placed in it.
@@ -11,4 +11,4 @@ Makes getting set up with [Beats](https://github.com/elastic/beats) contribution
 - You can now work in the `beats` folder and ignore this quickstart repo. 
 
 # Important Notes
-Don't forget to `source .env` once your IDE has the beats project open!
+Don't forget to `source .env` once your IDE has the beats project open.
