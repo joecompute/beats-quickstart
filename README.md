@@ -1,5 +1,5 @@
 # beats-quickstart
-[Beats](https://github.com/elastic/beats) setup is a pain. This repo aims to make getting started easy!
+Makes getting started with [Beats](https://github.com/elastic/beats) easy!
 
 ## Steps
 - Run `make beats-quickstart`. This is the last time you will run this.
