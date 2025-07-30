@@ -1,5 +1,5 @@
 # beats-quickstart
-Makes getting started with [Beats](https://github.com/elastic/beats) easy!
+Makes getting set up with [Beats](https://github.com/elastic/beats) contributions easy!
 
 ## Steps
 - Run `make beats-quickstart`. This is the last time you will run this.
