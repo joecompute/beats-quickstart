@@ -28,4 +28,11 @@ create-env:
 	@echo "set proper go version"
 	@source .env && gvm use $(GO_VERSION) >> .env && echo 'eval $$(gvm $(GO_VERSION))' >> .env
 
+.PHONY: port-env-to-cloned-beats
+port-env-to-cloned-beats: beats create-env
+	@cd beats/ && echo "source ../.env" > .env
 
+# puts a good .env that you can source into a freshly-cloned elastic/beats repo.
+.PHONY: beats-quickstart
+beats-quickstart: port-env-to-cloned-beats
+	cd beats && source .env && $(MAKE) mage
