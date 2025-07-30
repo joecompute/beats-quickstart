@@ -1,0 +1,14 @@
+# Directories
+/.vagrant
+/.idea
+/.vscode
+/build
+**/ironbank/build/
+beats
+elastic-agent
+
+# Files
+.DS_Store
+go_env.properties
+mage_output_file.go
+.env*
